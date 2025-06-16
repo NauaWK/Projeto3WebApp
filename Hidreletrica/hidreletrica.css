@@ -1,0 +1,118 @@
+#backgroundImagemHidreletrica{
+  height: 50%;
+  background-image: url(https://i.gifer.com/WNQ.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+#hidreletricaTexto{
+  font-family: var(--font);
+  margin-left: 1vw;
+}
+#hidreletricaTexto h1{
+  font-size: 3vw;
+  color: hsla(240, 100%, 50%, 0.836);
+  animation: FadeIn 3s forwards;
+}
+#hidreletricaTexto p{
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: hsl(240, 100%, 7%);
+  animation: FadeIn 3s forwards;
+}
+#secaoAtributosHidro{
+  height: 60%;
+  font-family: var(--font);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.divAtributos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2vw;
+  width: 40%;
+  height: 80%;
+}
+.divAtributos h1{
+  color: rgb(97, 97, 99);
+  padding-bottom: 1vh;
+}
+.listaAtributos{
+  list-style: none;
+}
+.itensLista{
+  position: relative;
+  padding-left: 2vw;
+}
+.vantagensItens::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 1vw;
+  height: 2.5vh;
+  background-image: url(images/trueMark.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.desvantagensItens::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 1vw;
+  height: 2.5vh;
+  background-image: url(images/falseMark.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#secaoCuriosidades{
+  height: 50%;
+  color: #000;
+  font-family: var(--font);
+  font-size: 1.3vw;
+  background-color: rgb(160, 160, 160);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#divCuriosidades h1{
+  margin-bottom: 1vh;
+}
+#listaCuriosidades{
+  list-style: decimal inside;
+}
+#secaoDados{
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #000;
+  color: #fff;
+  font-family: var(--font);
+  font-size: 1.3vw;
+}
+#listaDados{
+  list-style: square;
+}
+#divDados{
+  width: 40%;
+}
+#divDados h1{
+  padding-bottom: 1vh;
+}
+@keyframes FadeIn{
+ from{ 
+  opacity: 0;
+  }
+ to{
+  opacity: 1;
+ }
+}
