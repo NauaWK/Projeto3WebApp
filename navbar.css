@@ -10,7 +10,7 @@
 body{
   width: 100vw;
   height: 100vh;
-  background-color: hsla(240, 100%, 50%, 0.132);
+  background-color: hsl(110,53%,25%);
 }
 #mainHeader{
   position: relative;
@@ -18,7 +18,7 @@ body{
   justify-content: space-between;
   align-items: center;
   height: 15%;
-  background-color: hsla(240, 96%, 55%, 0.614);
+  background-color: rgba(2, 196, 2, 0.486);
 }
 #logo{
   margin-left: 5%;
@@ -86,9 +86,8 @@ body{
   border: 0 solid;
 }
 .dropDownLink:hover{
-  background-color: hsla(240, 96%, 55%, 0.614);
+  background-color: rgba(2, 196, 2, 0.486);
 }
 .dropDownLink:hover .dropDownItem{
   color: #fff;
 }
-
