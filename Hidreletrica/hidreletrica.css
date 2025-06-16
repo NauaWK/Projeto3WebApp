@@ -57,7 +57,7 @@
   top: 4px;
   width: 1vw;
   height: 2.5vh;
-  background-image: url(images/trueMark.png);
+  background-image: url(../images/trueMark.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -68,7 +68,7 @@
   top: 4px;
   width: 1vw;
   height: 2.5vh;
-  background-image: url(images/falseMark.png);
+  background-image: url(../images/falseMark.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
