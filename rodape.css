@@ -1,9 +1,0 @@
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(2, 196, 2, 0.485);
-}
-footer img{
-    width: 5vw;
-}
