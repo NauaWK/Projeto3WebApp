@@ -1,0 +1,182 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fffbe6;
+}
+header {
+    background-color: #cccccc;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav button {
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    color: #f3f3f3;
+}
+
+#solar {
+    margin-left: 90px;
+}
+
+#botao {
+    padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+  width: 200px;
+  margin-left: 70%;
+  margin-top: 150px;
+}
+
+
+
+.titulo {
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 60px;
+  
+}
+
+.capa{
+    padding: 10px;
+
+    display: flex;
+    background-image: url('https://s2-valor.glbimg.com/4NQ0QJkPFwWYyuuVDIVUgT-FmVM=/0x0:3840x2560/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2022/e/s/F6541wSrmrPdw1LMNGjA/sunset-5607776.jpg');
+  height: 500px;
+  background-attachment: fixed; /* Aqui está o parallax */
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  padding-bottom: 13%;
+  
+
+    
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+
+.explicacao {
+    background-color: #ffe08a;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+ul.beneficios {
+      list-style: none;
+      padding: 0;
+      max-width: 500px;
+      margin-left: 60px;
+    }
+
+ul.beneficios li {
+      background-color: #fff;
+      margin: 10px 0;
+      padding: 10px;
+      border-left: 6px solid #ffa500;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      font-size: 18px;
+    }
+
+h2 {
+    margin-left: 60px;
+    font-size: 30px;
+}
+#tema {
+    color: black;
+    margin-left: 43%;
+    font-size: 50px;
+}
+
+.lado {
+    display: flex;
+    align-items: center;
+}
+
+.img-fundo {
+    margin-left: auto;
+    
+    background-image: url(https://www.portalsolar.com.br/_next/image?url=https%3A%2F%2Fportalsolar-images.s3.us-east-2.amazonaws.com%2Finstitucional-and-info-production%2Fimages%2F9663f0a7-87d6-47e2-a300-5cd9cb758dec%2Fplacas-energia-solar-fotovoltaica.webp&w=3840&q=100);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1000px;
+    height: 500px;
+}
+
+.texto-img {
+    position: absolute;
+    right: 0; 
+    top: 40%; 
+    color: white;
+    font-size: 24px;
+    background-color: rgb(202, 108, 0);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.EX-1 {
+      display: flex;
+      align-items: center;
+      margin-top: 100px;
+    }
+
+.texto {
+  flex: 1;
+  font-size: 18px;
+  line-height: 1.6;
+  padding-right: 20px;
+  background-color: rgb(202, 108, 0);
+    padding: 15px;  
+    border-radius: 8px;
+    max-width: 800px;
+    color: white;
+    margin-top: 20px;
+}
+img {
+    margin-left: 100px;
+}
+
+
+.EX-2 {
+      display: flex;
+      align-items: center;
+      margin-top: 100px;
+    }
+#texto2 {
+    margin-left: auto;
+}
+
+.EX-3 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 20px; 
+    margin-bottom: 100px; 
+
+    }
