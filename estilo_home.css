@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fdfbfb;
+}
+
+#mainHeader {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    background-color: hsla(120, 68%, 28%, 0.575);
+}
+
+#logo {
+    margin-left: 70%;
+    width: 10vw;
+}
+
+#headerNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 50%;
+    font-size: 1.7vw;
+    list-style-type: none;
+    font-family: var(--font);
+}
+
+.navItem {
+    text-decoration: none;
+    color: white;
+    padding: 0.5vw;
+    transition: 0.3s ease-in-out;
+}
+
+.navItem:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 1em;
+}
+
+#dropDownNav {
+    display: none;
+    list-style-type: none;
+}
+
+#energyNav {
+    position: relative;
+}
+
+#energyNav:hover #dropDownNav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    border-top: none;
+    background-color: #fff;
+}
+
+.hovered {
+    background-color: hsl(156, 100%, 6%);
+    border-radius: 1em;
+}
+
+.visible {
+    display: block;
+}
+
+.dropDownItem {
+    display: block;
+    padding: 3%;
+    color: #000;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.5vw;
+}
+
+.dropDownLink {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropDownLink img {
+    width: 3vw;
+}
+
+#lastItem {
+    border: 0 solid;
+}
+
+.dropDownLink:hover {
+    background-color: hsla(120, 68%, 28%, 0.575);
+}
+
+.dropDownLink:hover .dropDownItem {
+    color: #fff;
+}
+
+.titulo-principal {
+    color: #333;
+    font-size: 32px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+}
+
+.secao-botoes {
+    margin-top: 30px;
+}
+
+.lista-energias {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botao-energia {
+    display: block;
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.botao-energia:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#botao-solar:hover {
+    background-image: url('painel-solar.jpg');
+    color: transparent;
+}
+
+#botao-eolica:hover {
+    background-image: url('turbina-eolica.jpg');
+    color: transparent;
+}
+
+#botao-hidreletrica:hover {
+    background-image: url('barragem-hidreletrica.jpg');
+    color: transparent;
+}
+
+.apresentacao-energias {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.item-energia {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-energia.reverso {
+    flex-direction: row-reverse;
+}
+
+.texto-item,
+.imagem-item {
+    flex: 1;
+}
+
+.imagem-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.texto-item h3 {
+    font-size: 28px;
+    color: #44ad29;
+    margin-top: 0;
+}
+
+.texto-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.secao-clima {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #eef5ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.secao-clima h2 {
+    color: #0056b3;
+    margin-top: 0;
+}
+
+#info-clima {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#info-clima .clima-item {
+    text-align: left;
+}
+
+#info-clima .descricao-tempo {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+}
+
+#info-clima p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(2, 196, 2, 0.485);
+    padding: 20px 10px;
+    gap: 20px;
+}
+
+footer img {
+    width: 5vw;
+    max-width: 50px;
+}
+
+.footer-texto {
+    text-align: left;
+}
+
+.footer-texto .copyright {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+    font-size: 0.9em;
+}
+
+.footer-texto .desenvolvedores {
+    margin: 4px 0 0 0;
+    font-size: 0.8em;
+    color: #444;
+}
