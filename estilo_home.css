@@ -18,7 +18,7 @@ body{
   justify-content: space-between;
   align-items: center;
   height: 15%;
-  background-color: #fff;
+  background-color: #000;
 }
 #logo{
   margin-left: 5%;
@@ -45,8 +45,8 @@ body{
   transition: 0.3s ease-in-out;
 }
 .navItem:hover{
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 #dropDownNav{
   display: none;
@@ -87,8 +87,8 @@ body{
   border: 0 solid;
 }
 .dropDownLink:hover{
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
 }
 .dropDownLink:hover .dropDownItem{
   color: #fff;
