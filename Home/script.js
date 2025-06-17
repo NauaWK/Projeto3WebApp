@@ -2,7 +2,7 @@
 function buscarClima() {
     // --- CONFIGURAÇÕES ---
     const apiKey = '2d50bfea27be143e31514b7217ffbb8e'; 
-    const cidade = 'Curitiba,BR'; 
+    const cidade = 'Brasília,BR'; 
 
     // Monta a URL da API
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${apiKey}&units=metric&lang=pt_br`;
