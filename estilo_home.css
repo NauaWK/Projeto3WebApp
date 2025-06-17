@@ -18,7 +18,7 @@ body{
   justify-content: space-between;
   align-items: center;
   height: 15%;
-  background-color: #000;
+  background-color: rgba(2, 196, 2, 0.485)
 }
 #logo{
   margin-left: 5%;
@@ -87,7 +87,7 @@ body{
   border: 0 solid;
 }
 .dropDownLink:hover{
-  background-color: #000;
+  background-color: rgba(2, 196, 2, 0.485);
   color: #fff;
 }
 .dropDownLink:hover .dropDownItem{
