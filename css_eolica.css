@@ -1,0 +1,64 @@
+#mainContent {
+  display: flex;
+  height: 80vh;
+  font-family: var(--font);
+}
+
+#indice {
+  width: 30%;
+  background-color: #f0f0f0;
+  padding: 2vh;
+  overflow-y: auto;
+}
+
+#indice h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+#indice ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#indice li {
+  margin: 0.5em 0;
+}
+
+#indice a {
+  color: #2a5d3b;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#indice a:hover {
+  text-decoration: underline;
+}
+
+#pesquisa {
+  width: 70%;
+  background-color: #ffffff;
+  padding: 2vh 3vw;
+  overflow-y: auto;
+}
+
+#pesquisa h2 {
+  font-size: 2em;
+  margin-top: 0.5em;
+  color: #245c35;
+}
+
+#pesquisa h3 {
+  font-size: 1.2em;
+  margin-top: 1em;
+  color: #0d3c23;
+}
+
+#pesquisa p, #pesquisa ul {
+  font-size: 1em;
+  margin: 0.8em 0;
+}
+
+#pesquisa ul {
+  padding-left: 1.2em;
+}
