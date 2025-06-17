@@ -18,7 +18,7 @@ body{
   justify-content: space-between;
   align-items: center;
   height: 20%;
-  background-color: hsla(120, 2%, 89%, 0.995);
+  background-color: hsla(0, 0%, 73%, 0.995);
 }
 #logo{
   margin-left: 70%;
@@ -90,7 +90,7 @@ body{
   border: 0 solid;
 }
 .dropDownLink:hover{
-  background-color: hsla(120, 2%, 89%, 0.995);
+  background-color: hsla(0, 0%, 73%, 0.995);
 }
 .dropDownLink:hover .dropDownItem{
   color: #fff;
